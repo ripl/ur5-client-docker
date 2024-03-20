@@ -1,0 +1,9 @@
+{
+    "description": "Base image for UR5 in RIPL",
+    "maintainer": "RIPL",
+    "name": "ur5-docker",
+    "organization": "ripl",
+    "schema": "1.0",
+    "template": null,
+    "version": "0.0.0"
+}
