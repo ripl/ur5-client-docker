@@ -27,7 +27,7 @@ jobs:
           context: .
           platforms: linux/amd64
           push: true
-          tags: ripl/ros-docker:main-amd64
+          tags: ripl/ur5-client-docker:main-amd64
           file: Dockerfile
       - name: Build and push noetic
         uses: docker/build-push-action@v5
@@ -35,5 +35,5 @@ jobs:
           context: .
           platforms: linux/arm64/v8
           push: true
-          tags: ripl/ros-docker:main-arm64
+          tags: ripl/ur5-client-docker:main-arm64
           file: Dockerfile
