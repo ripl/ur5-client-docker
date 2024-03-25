@@ -34,8 +34,8 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: .
-          build-args: ARCH=arm64
+          build-args: ARCH=arm64v8
           platforms: linux/arm64/v8
           push: true
-          tags: ripl/ur5-client-docker:main-arm64
+          tags: ripl/ur5-client-docker:main-arm64v8
           file: Dockerfile
