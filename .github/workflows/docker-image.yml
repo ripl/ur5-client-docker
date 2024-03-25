@@ -25,6 +25,7 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: .
+          build-args: ARCH=amd64
           platforms: linux/amd64
           push: true
           tags: ripl/ur5-client-docker:main-amd64
@@ -33,6 +34,7 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: .
+          build-args: ARCH=arm64
           platforms: linux/arm64/v8
           push: true
           tags: ripl/ur5-client-docker:main-arm64
